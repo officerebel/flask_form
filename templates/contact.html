@@ -9,7 +9,7 @@
       Contact Form:
     </h1>
     <form action="/contact" method="post">
-      {{% form.hidden_tag %}}
+      {{ form.hidden_tag() }}
       <p>
         {{ form.name.label }}
         {{ form.name }}
